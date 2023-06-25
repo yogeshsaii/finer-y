@@ -6,7 +6,19 @@
     <link rel="stylesheet" href="./style.css">
     <nav class="nav">
         <img src="./media/logo.png" alt="">
-        <h1>FINER-Y</h1>
+        
+        <div class="topnav">
+            <a class="active" href="">Myaccount</a>
+            <a class="remain" href="#about">About</a>
+            <a class="remain" href="#c">Contact</a>
+            <div class="search-container">
+              <form action="">  
+                <input type="text" placeholder="Product name.." name="search">
+                
+                <button type="submit" class="searchicon">SEARCH</button>
+              </form>
+            </div>
+          </div>
 
 
 
@@ -35,57 +47,42 @@
 <section class="section">
 
     <div class="items">
-        <img class="image" src="./media/clothing.png" alt="">
-        <div class="n">
-        <a class="names" href="#">CLOTHING</a>
+        <a href="#"><img class="image" src="./media/clothing.png" alt=""></a>
+        
+       <a href="#"><h2>CLOTHING</h2></a>
+        
     </div>
         
 
 
     </div>
     <div class="items">
-        <img class="image" src="./media/watch.png" alt="">
-        <div class="n">
-            <a class="names" href="#">WATCHES</a>
-        </div>
-        <h2></h2> 
-
-
+        <a href="#"><img class="image" src="./media/watch.png" alt=""></a>
+        
+        <a href="#"><h2>WATCHES</h2></a>
     </div>
+
     <div class="items">
-        <img class="image" src="./media/perfume.png" alt="#">
-        <div class="n">
-            <a class="names" href="">PERFUMES</a>
-        </div>
+        <a href="#"><img class="image" src="./media/perfume.png" alt="#"></a>
         
-        
-
-
+        <a href="#"><h2>PERFUMES</h2></a>
     </div>
+
     <div class="items">
-        <img class="image" src="./media/glasses.png" alt="">
-        <div class="n">
-            <a class="names" href="#">SHADES</a>
-        </div>
+        <a href="#"><img class="image" src="./media/glasses.png" alt=""></a>
         
-        
-
-
+        <a href="#"><h2>SHADES</h2></a>
     </div>
+
     <div class="items">
-        <img class="image" src="./media/shoe.png" alt="">
-        <div class="n">
-            <a class="names" href="#">SHOES</a>
-        </div>
+        <a href="#"><img class="image" src="./media/shoe.png" alt="">
         
-        
-
-
+            <a href="#"><h2>FOOTWEAR</h2></a>
     </div>
    
 </section>
 <section class="about">
-    <h2 class="Aname"> ABOUT US</h2>
+    <h2 class="Aname"> <u>ABOUT US</u></h2>
     <p class="Adata">
         Yogesh, the brilliant founder of Finer-y, hails from the coastal city of Vishakapatnam. With a deep passion for fashion and a relentless drive for creativity, Yogesh embarked on a remarkable journey to establish a brand that redefines elegance and sophistication. 
         <br>
@@ -111,7 +108,48 @@
 
     
 </body>
-    <footer>
-        The image in the main section belongs to respective owner. 
-    </footer>
+<footer class="bottom" id="">
+    <div class="footer">
+    <form action="onclick">
+        <h2><i>Contact us</i>:</h2>
+        <input type="text" id="name" placeholder="*Name" required>
+        <input type="text" id="phone" placeholder="*Phone No." required>
+        <input type="email" id="email" placeholder="*Email" required>
+        <textarea id="message" cols="30" rows="8" placeholder="Comments..."></textarea>
+        <button type="submit">SEND</button>
+        
+    </form>
+</div>
+    <hr>
+    <div class="help">
+        <div>
+    <h4> NEED HELP ?</h4> 
+    <a href="#">Order Status</a><br>
+    <a href="#">Delivery</a><br>
+    <a href="#">Returns</a><br>
+    <a href="#">Shipping Policy</a><br>
+    <a href="#">Return & Cancellation</a>
+</div>
+        <div class="stores">
+    <h4>VISIT OUR STORES AT:</h4> 
+    <a href="#">NEW YORK</a><br>
+    <a href="#">LONDON</a><br>
+    <a href="#">AMESTRADAM</a><br>
+    <a href="#">PARIS</a><br>
+    <a href="#">ABU DABHI</a> <br>
+    <a href="#">MUMBAI</a> <br>
+    <a href="#">HYDERABAD</a> <br>
+    <a href="#">SINGAPORE</a> 
+    
+</div>
+
+
+</div>
+
+ 
+   
+
+
+</footer>
+<h3 class="last"><a href="#" class="lastlink">Privacy policy</a> |<a href="#" class="lastlink"> Terms of use</a></h3>
 </html>
