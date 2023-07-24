@@ -59,8 +59,8 @@
 
 }
 .body{
-
     background-color: rgb(37, 35, 35);
+    overflow-x: hidden;
 }
 .body h2{
     color: aliceblue;
@@ -182,6 +182,7 @@ form input, form textarea{
     background: black;
     font-size: 16px;
     color: #ddd;
+
 }
 form button{
     padding: 15px;
@@ -217,7 +218,17 @@ form button{
     text-decoration: none;
 }
 .stores{
-    padding-top: 50%;
+  color: #fff;
+  padding: 2%;
+}
+.stores h4{
+  color: #fff;
+  font-weight: 10;
+  font-family: 'Times New Roman', Times, serif;
+}
+.stores a{
+  color: #fff;
+  text-decoration: none;
 }
 
 /* search bar  */
@@ -478,5 +489,152 @@ form button{
   width: 30%;
 
 }
+@media screen and (max-width:360px) {
+  .about{
+    font-size: 1px;
+  }
+  .topnav{
+    height: max-content;
+    
+  }
+  .navlink a.active{
+    font-size: 3px;
+    padding: 0;
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    height: 30px;
+    width: 24px;
+    color: #f32c21;
+    
+    padding-top: 13px;
+  }
+  .navlink a.about{
+    display: none;
+  }
+  .search-container{
+    position: absolute;
+    top: 6.3%;
+    left: 64%;
+    height: 67px;
+    width: 67px;
+  }
+  .navimg img{
+    width: 50%;
+  }
+  .wrapper i{
+    display: none;
+  }
+  .body h2{
+    font-size: 20px;
+  }
+  .carousel{
+    width: 100%;
+    height: 270px;
+    padding: 1%;
+  }
+  .carousel a img{
+    height: 240px;
+  }
+  .suit{
+    display: inline;
+  }
+  .suitdiv{
+    background-color: #ededed;
+    padding-bottom: 2%;
+    position: relative;
+    width: 100%;
+  }
+  .suitdiv img{
+    width: 85%;
+    padding: 3%;
+  }
+  .adinf{
+    width: 100%;
+  }
+  .adinf h2{
+        font-size: 21px;
+        padding: 1% 5%;
+  }
+  .adinf h3{
+        font-size: 21px;
+        padding: 1% 5%;
+  }
+  .adinf button{
+        padding: 1% 5%;
+  }
+  .suit2{
+    display: inline;
+  }
+  .suitdiv2{
+    background-color: #ededed;
+    position: relative;
+    padding-bottom: 2%;
+    width:100%;
+  }
+  .suitdiv2 img{
+    width: 85%;
+    padding: 2%;
+  }
+  .adinf2{
+    width: 100%;
+  }
+  .adinf2 h2{
+        font-size: 21px;
+        padding: 1% 5%;
+  }
+  .adinf2 h3{
+        font-size: 21px;
+        padding: 1% 5%;
+  }
+  .adinf2 button{
+        padding: 1% 5%;
+  }
+  .body h2{
+    font-size: 18px;
+  }
+  .items{
+    display:list-item;
+    flex-flow: wrap;
+    padding: 5%;
+    grid-gap: 8px;
+  }
+  .items a img{
+    width: 49%;
+    height: 35vh;
+  }
+  .shirt{
+    grid-gap: 5px;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+  }
+  .shirts{
+    width:max-content;
+    width: 46%;
+    flex-flow: wrap;
+  }
+  .shirts h3{
+    font-size: 14px;
+    width:43% ;
+    flex-flow: wrap;
+  }
 
+  .bottom{
+    display: inline;
+  }
+  .footer{
+    width: 100%;
+  }
+  .footinfo{
+    display:flex;
+    flex-direction: row-reverse;
 
+  }
+  .stores a{
+    font-size: 15px;
+  }
+  .lastlink{
+    font-size: 18px;
+  }
+}
