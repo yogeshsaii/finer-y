@@ -331,6 +331,7 @@ form button{
     padding: 10px;
     cursor: pointer;
     animation: carouselAnimation 30s linear infinite;
+    animation-delay:3s;
   }
   
 .carousel img {
