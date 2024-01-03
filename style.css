@@ -488,6 +488,9 @@ form button{
    padding-bottom: 5%;
    border-top: #ddd solid 2px;
 }
+.shirt a{
+  text-decoration:none;
+}
 .shirts{
   width: 280px;
   border: #343333 solid 5px;
